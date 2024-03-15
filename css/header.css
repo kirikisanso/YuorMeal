@@ -1,0 +1,31 @@
+.header {
+  height: 466px;
+  background-image: url("../img/background-header.svg");
+  display: flex;
+  padding-top: 10px;
+}
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__title {
+  margin: 0;
+  font-size: 50px;
+  width: 437px;
+  color: white;
+}
+.header__title-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__title-red {
+  color: #ff5c00;
+}
+.header__appeal {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
